@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "album": "Divide",
+    "name": "Shape of you",
+    "artist": "Ed Sheeran",
+    "genre": "Pop",
+    "duration": 234,
+    "url": "https://drive.google.com/open?id=14gh2APYzJOloabeqWFCo_vtnbq2uc_tQ"
+  },
+  {
+    "id": 2,
+    "album": "Divide",
+    "name": "Shape of you",
+    "artist": "Ed Sheeran",
+    "genre": "Pop",
+    "duration": 234,
+    "url": "https://drive.google.com/open?id=14gh2APYzJOloabeqWFCo_vtnbq2uc_tQ"
+  },
+  {
+    "id": 3,
+    "album": "Divide",
+    "name": "Shape of you",
+    "artist": "Ed Sheeran",
+    "genre": "Pop",
+    "duration": 234,
+    "url": "https://drive.google.com/open?id=14gh2APYzJOloabeqWFCo_vtnbq2uc_tQ"
+  }
+]
