@@ -3,6 +3,14 @@ const userModel = require('../model/user.model')
 /**
  * Get user by id
  */
+exports.getUsers = function (req, res) {
+  const users = userModel.getList()
+  res.status(200).json(users)
+}
+
+/**
+ * Get user by id
+ */
 exports.getUser = function (req, res) {
   const user = userModel.get(req.params.id)
   res.status(200).json({ user })

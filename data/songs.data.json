@@ -6,24 +6,37 @@
     "artist": "Ed Sheeran",
     "genre": "Pop",
     "duration": 234,
-    "url": "https://drive.google.com/open?id=14gh2APYzJOloabeqWFCo_vtnbq2uc_tQ"
+    "url": "http://docs.google.com/uc?export=open&id=14gh2APYzJOloabeqWFCo_vtnbq2uc_tQ",
+    "cover": "https://drive.google.com/uc?id=1nNi3seelCJoBMMXmEPYsScMQ5fG8Ntn_"
   },
   {
     "id": 2,
-    "album": "Divide",
-    "name": "Shape of you",
-    "artist": "Ed Sheeran",
-    "genre": "Pop",
+    "album": "Revival",
+    "name": "River (feat Ed Sheeran)",
+    "artist": "Eminem",
+    "genre": "Hip Hop",
     "duration": 234,
-    "url": "https://drive.google.com/open?id=14gh2APYzJOloabeqWFCo_vtnbq2uc_tQ"
+    "url": "http://docs.google.com/uc?export=open&id=12Ec8D3mNZVNHCtL3unKU_EaksquaX4q_",
+    "cover": "https://drive.google.com/uc?id=1fDxguDYrAzGX01JY85JYJvFkfdLezjuW"
   },
   {
     "id": 3,
-    "album": "Divide",
-    "name": "Shape of you",
-    "artist": "Ed Sheeran",
-    "genre": "Pop",
+    "album": "My Dear Melancholy",
+    "name": "Call Out My Name",
+    "artist": "Weeknd",
+    "genre": "R&B",
     "duration": 234,
-    "url": "https://drive.google.com/open?id=14gh2APYzJOloabeqWFCo_vtnbq2uc_tQ"
+    "url": "http://docs.google.com/uc?export=open&id=18ERmdyU3vexbDgBABiEAKmoAkK9RCnI7",
+    "cover": "https://drive.google.com/uc?id=13pVXSh_dwSGyoqKDCyonY37_Sbgi9aQm"
+  },
+  {
+    "id": 4,
+    "album": "Starboy",
+    "name": "Starboy",
+    "artist": "Weeknd",
+    "genre": "R&B",
+    "duration": 234,
+    "url": "http://docs.google.com/uc?export=open&id=1hyCWKFFfC6TkjACtqWMCd3M8okuTnLqG",
+    "cover": "https://drive.google.com/uc?id=1IXDP7rab-RK4tw1-MGoXVr9WXQvLZcGE"
   }
 ]

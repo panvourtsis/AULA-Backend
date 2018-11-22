@@ -2,6 +2,7 @@
 
 const chalk = require('chalk')
 const ip = require('ip')
+const winston = require('winston')
 
 const divider = chalk.gray('\n-----------------------------------')
 
@@ -9,16 +10,13 @@ const divider = chalk.gray('\n-----------------------------------')
  * Logger middleware, you can customize it to make messages more personal
  */
 const logger = {
-  // Called whenever there's an error on the server we want to print
-  error: (err) => {
-    console.error(chalk.red(err))
-  },
+  ...winston,
 
   // Called when express.js app starts on given port w/o errors
   appStarted: (port, host) => {
-    console.log(`Server started ! ${chalk.green('✓')}`)
+    winston.info(`Server started ! ${chalk.green('✓')}`)
 
-    console.log(`
+    winston.info(`
 ${chalk.bold('Access URLs:')}${divider}
 Localhost: ${chalk.magenta(`http://${host}:${port}`)}
       LAN: ${chalk.magenta(`http://${ip.address()}:${port}`)}${divider}

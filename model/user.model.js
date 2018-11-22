@@ -9,6 +9,10 @@ exports.get = function (id) {
   return users.find((user) => user.id === parseInt(id))
 }
 
+exports.getList = function () {
+  return users
+}
+
 exports.save = async function (user) {
   try {
     const newUsers = users.filter((arrUser) => arrUser.id !== user.id)
